@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2964A78B36379348D9B767 /* Pods_SimonFan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F6B04B1DDD0064147D77A0 /* Pods_SimonFan.framework */; };
+		94BF9FE8E6504EB4A7E7C30F /* Pods_SimonFanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D245B4CEBDF1721891D7A6F /* Pods_SimonFanTests.framework */; };
+		CC72BEA128E6E58F0040F663 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72BEA028E6E58F0040F663 /* AppDelegate.m */; };
+		CC72BEA728E6E58F0040F663 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72BEA628E6E58F0040F663 /* ViewController.m */; };
+		CC72BEAA28E6E58F0040F663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC72BEA828E6E58F0040F663 /* Main.storyboard */; };
+		CC72BEAC28E6E5900040F663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC72BEAB28E6E5900040F663 /* Assets.xcassets */; };
+		CC72BEAF28E6E5900040F663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC72BEAD28E6E5900040F663 /* LaunchScreen.storyboard */; };
+		CC72BEB228E6E5900040F663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72BEB128E6E5900040F663 /* main.m */; };
+		CC72BEBC28E6E5910040F663 /* SimonFanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72BEBB28E6E5910040F663 /* SimonFanTests.m */; };
+		CC72BEC628E6E5910040F663 /* SimonFanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72BEC528E6E5910040F663 /* SimonFanUITests.m */; };
+		CC72BEC828E6E5910040F663 /* SimonFanUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72BEC728E6E5910040F663 /* SimonFanUITestsLaunchTests.m */; };
+		CCC788A128F14EE600C362E8 /* Localizable_SimonFan.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC788A328F14EE600C362E8 /* Localizable_SimonFan.strings */; };
+		CCC788AA28F15B9A00C362E8 /* Localizable_SimonFan.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC788A328F14EE600C362E8 /* Localizable_SimonFan.strings */; };
+		ED534DE99AAF8974CFEE0B49 /* Pods_SimonFan_SimonFanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820B680596D25BF9FE7B4ACB /* Pods_SimonFan_SimonFanUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC72BEB828E6E5910040F663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC72BE9428E6E58F0040F663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC72BE9B28E6E58F0040F663;
+			remoteInfo = SimonFan;
+		};
+		CC72BEC228E6E5910040F663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC72BE9428E6E58F0040F663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC72BE9B28E6E58F0040F663;
+			remoteInfo = SimonFan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A53354F22E656C0BC223158 /* Pods-SimonFan-SimonFanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonFan-SimonFanUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimonFan-SimonFanUITests/Pods-SimonFan-SimonFanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35E302B58D45CD0BA6E95A72 /* Pods-SimonFan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonFan.debug.xcconfig"; path = "Target Support Files/Pods-SimonFan/Pods-SimonFan.debug.xcconfig"; sourceTree = "<group>"; };
+		3D245B4CEBDF1721891D7A6F /* Pods_SimonFanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimonFanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F6B04B1DDD0064147D77A0 /* Pods_SimonFan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimonFan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		820B680596D25BF9FE7B4ACB /* Pods_SimonFan_SimonFanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimonFan_SimonFanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E180DEE66E9A989A12D0E3 /* Pods-SimonFan-SimonFanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonFan-SimonFanUITests.release.xcconfig"; path = "Target Support Files/Pods-SimonFan-SimonFanUITests/Pods-SimonFan-SimonFanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC72BE9C28E6E58F0040F663 /* SimonFan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonFan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC72BE9F28E6E58F0040F663 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC72BEA028E6E58F0040F663 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC72BEA528E6E58F0040F663 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC72BEA628E6E58F0040F663 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC72BEA928E6E58F0040F663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC72BEAB28E6E5900040F663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC72BEAE28E6E5900040F663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC72BEB028E6E5900040F663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC72BEB128E6E5900040F663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC72BEB728E6E5910040F663 /* SimonFanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonFanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC72BEBB28E6E5910040F663 /* SimonFanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimonFanTests.m; sourceTree = "<group>"; };
+		CC72BEC128E6E5910040F663 /* SimonFanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonFanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC72BEC528E6E5910040F663 /* SimonFanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimonFanUITests.m; sourceTree = "<group>"; };
+		CC72BEC728E6E5910040F663 /* SimonFanUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimonFanUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CCC7889B28E6F84B00C362E8 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CCC7889C28E6F88000C362E8 /* SimonFan.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimonFan.pch; sourceTree = "<group>"; };
+		CCC7889D28F12ED100C362E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		CCC7889E28F12ED200C362E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CCC788A228F14EE600C362E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable_SimonFan.strings; sourceTree = "<group>"; };
+		CCC788A928F14F2800C362E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable_SimonFan.strings"; sourceTree = "<group>"; };
+		D2B182CA11E005423388851C /* Pods-SimonFanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonFanTests.debug.xcconfig"; path = "Target Support Files/Pods-SimonFanTests/Pods-SimonFanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1F8D4E86DAE91EF9903A086 /* Pods-SimonFanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonFanTests.release.xcconfig"; path = "Target Support Files/Pods-SimonFanTests/Pods-SimonFanTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0F4896E377ED43CEAF23F8C /* Pods-SimonFan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonFan.release.xcconfig"; path = "Target Support Files/Pods-SimonFan/Pods-SimonFan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC72BE9928E6E58F0040F663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2964A78B36379348D9B767 /* Pods_SimonFan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC72BEB428E6E5910040F663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BF9FE8E6504EB4A7E7C30F /* Pods_SimonFanTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC72BEBE28E6E5910040F663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED534DE99AAF8974CFEE0B49 /* Pods_SimonFan_SimonFanUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F5C4DD7BA6515DE711A0EAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35E302B58D45CD0BA6E95A72 /* Pods-SimonFan.debug.xcconfig */,
+				F0F4896E377ED43CEAF23F8C /* Pods-SimonFan.release.xcconfig */,
+				1A53354F22E656C0BC223158 /* Pods-SimonFan-SimonFanUITests.debug.xcconfig */,
+				92E180DEE66E9A989A12D0E3 /* Pods-SimonFan-SimonFanUITests.release.xcconfig */,
+				D2B182CA11E005423388851C /* Pods-SimonFanTests.debug.xcconfig */,
+				E1F8D4E86DAE91EF9903A086 /* Pods-SimonFanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6334A052F411280D29044C31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77F6B04B1DDD0064147D77A0 /* Pods_SimonFan.framework */,
+				820B680596D25BF9FE7B4ACB /* Pods_SimonFan_SimonFanUITests.framework */,
+				3D245B4CEBDF1721891D7A6F /* Pods_SimonFanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC72BE9328E6E58F0040F663 = {
+			isa = PBXGroup;
+			children = (
+				CC72BE9E28E6E58F0040F663 /* SimonFan */,
+				CC72BEBA28E6E5910040F663 /* SimonFanTests */,
+				CC72BEC428E6E5910040F663 /* SimonFanUITests */,
+				CC72BE9D28E6E58F0040F663 /* Products */,
+				3F5C4DD7BA6515DE711A0EAB /* Pods */,
+				6334A052F411280D29044C31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC72BE9D28E6E58F0040F663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC72BE9C28E6E58F0040F663 /* SimonFan.app */,
+				CC72BEB728E6E5910040F663 /* SimonFanTests.xctest */,
+				CC72BEC128E6E5910040F663 /* SimonFanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC72BE9E28E6E58F0040F663 /* SimonFan */ = {
+			isa = PBXGroup;
+			children = (
+				CC72BE9F28E6E58F0040F663 /* AppDelegate.h */,
+				CC72BEA028E6E58F0040F663 /* AppDelegate.m */,
+				CC72BEA528E6E58F0040F663 /* ViewController.h */,
+				CC72BEA628E6E58F0040F663 /* ViewController.m */,
+				CCC7889B28E6F84B00C362E8 /* Header.h */,
+				CCC7889C28E6F88000C362E8 /* SimonFan.pch */,
+				CC72BEA828E6E58F0040F663 /* Main.storyboard */,
+				CC72BEAB28E6E5900040F663 /* Assets.xcassets */,
+				CC72BEAD28E6E5900040F663 /* LaunchScreen.storyboard */,
+				CC72BEB028E6E5900040F663 /* Info.plist */,
+				CCC788A328F14EE600C362E8 /* Localizable_SimonFan.strings */,
+				CC72BEB128E6E5900040F663 /* main.m */,
+			);
+			path = SimonFan;
+			sourceTree = "<group>";
+		};
+		CC72BEBA28E6E5910040F663 /* SimonFanTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC72BEBB28E6E5910040F663 /* SimonFanTests.m */,
+			);
+			path = SimonFanTests;
+			sourceTree = "<group>";
+		};
+		CC72BEC428E6E5910040F663 /* SimonFanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC72BEC528E6E5910040F663 /* SimonFanUITests.m */,
+				CC72BEC728E6E5910040F663 /* SimonFanUITestsLaunchTests.m */,
+			);
+			path = SimonFanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC72BE9B28E6E58F0040F663 /* SimonFan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC72BECB28E6E5910040F663 /* Build configuration list for PBXNativeTarget "SimonFan" */;
+			buildPhases = (
+				1656C09A3164232496B3A90F /* [CP] Check Pods Manifest.lock */,
+				CC72BE9828E6E58F0040F663 /* Sources */,
+				CC72BE9928E6E58F0040F663 /* Frameworks */,
+				CC72BE9A28E6E58F0040F663 /* Resources */,
+				5C43927979B4B7A59AE9E7E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimonFan;
+			productName = SimonFan;
+			productReference = CC72BE9C28E6E58F0040F663 /* SimonFan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC72BEB628E6E5910040F663 /* SimonFanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC72BECE28E6E5910040F663 /* Build configuration list for PBXNativeTarget "SimonFanTests" */;
+			buildPhases = (
+				E41FA7E730225051A35ABCC6 /* [CP] Check Pods Manifest.lock */,
+				CC72BEB328E6E5910040F663 /* Sources */,
+				CC72BEB428E6E5910040F663 /* Frameworks */,
+				CC72BEB528E6E5910040F663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC72BEB928E6E5910040F663 /* PBXTargetDependency */,
+			);
+			name = SimonFanTests;
+			productName = SimonFanTests;
+			productReference = CC72BEB728E6E5910040F663 /* SimonFanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC72BEC028E6E5910040F663 /* SimonFanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC72BED128E6E5910040F663 /* Build configuration list for PBXNativeTarget "SimonFanUITests" */;
+			buildPhases = (
+				FC26C48C8DE9BECE56282E7E /* [CP] Check Pods Manifest.lock */,
+				CC72BEBD28E6E5910040F663 /* Sources */,
+				CC72BEBE28E6E5910040F663 /* Frameworks */,
+				CC72BEBF28E6E5910040F663 /* Resources */,
+				F5A98118B68AFE19B751D2C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC72BEC328E6E5910040F663 /* PBXTargetDependency */,
+			);
+			name = SimonFanUITests;
+			productName = SimonFanUITests;
+			productReference = CC72BEC128E6E5910040F663 /* SimonFanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC72BE9428E6E58F0040F663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CC72BE9B28E6E58F0040F663 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					CC72BEB628E6E5910040F663 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = CC72BE9B28E6E58F0040F663;
+					};
+					CC72BEC028E6E5910040F663 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = CC72BE9B28E6E58F0040F663;
+					};
+				};
+			};
+			buildConfigurationList = CC72BE9728E6E58F0040F663 /* Build configuration list for PBXProject "SimonFan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = CC72BE9328E6E58F0040F663;
+			productRefGroup = CC72BE9D28E6E58F0040F663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC72BE9B28E6E58F0040F663 /* SimonFan */,
+				CC72BEB628E6E5910040F663 /* SimonFanTests */,
+				CC72BEC028E6E5910040F663 /* SimonFanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC72BE9A28E6E58F0040F663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC72BEAF28E6E5900040F663 /* LaunchScreen.storyboard in Resources */,
+				CCC788A128F14EE600C362E8 /* Localizable_SimonFan.strings in Resources */,
+				CC72BEAC28E6E5900040F663 /* Assets.xcassets in Resources */,
+				CC72BEAA28E6E58F0040F663 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC72BEB528E6E5910040F663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC788AA28F15B9A00C362E8 /* Localizable_SimonFan.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC72BEBF28E6E5910040F663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1656C09A3164232496B3A90F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimonFan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C43927979B4B7A59AE9E7E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimonFan/Pods-SimonFan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimonFan/Pods-SimonFan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimonFan/Pods-SimonFan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E41FA7E730225051A35ABCC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimonFanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A98118B68AFE19B751D2C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimonFan-SimonFanUITests/Pods-SimonFan-SimonFanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimonFan-SimonFanUITests/Pods-SimonFan-SimonFanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimonFan-SimonFanUITests/Pods-SimonFan-SimonFanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC26C48C8DE9BECE56282E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimonFan-SimonFanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC72BE9828E6E58F0040F663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC72BEA728E6E58F0040F663 /* ViewController.m in Sources */,
+				CC72BEA128E6E58F0040F663 /* AppDelegate.m in Sources */,
+				CC72BEB228E6E5900040F663 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC72BEB328E6E5910040F663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC72BEBC28E6E5910040F663 /* SimonFanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC72BEBD28E6E5910040F663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC72BEC628E6E5910040F663 /* SimonFanUITests.m in Sources */,
+				CC72BEC828E6E5910040F663 /* SimonFanUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC72BEB928E6E5910040F663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC72BE9B28E6E58F0040F663 /* SimonFan */;
+			targetProxy = CC72BEB828E6E5910040F663 /* PBXContainerItemProxy */;
+		};
+		CC72BEC328E6E5910040F663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC72BE9B28E6E58F0040F663 /* SimonFan */;
+			targetProxy = CC72BEC228E6E5910040F663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC72BEA828E6E58F0040F663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC72BEA928E6E58F0040F663 /* Base */,
+				CCC7889D28F12ED100C362E8 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC72BEAD28E6E5900040F663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC72BEAE28E6E5900040F663 /* Base */,
+				CCC7889E28F12ED200C362E8 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CCC788A328F14EE600C362E8 /* Localizable_SimonFan.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCC788A228F14EE600C362E8 /* en */,
+				CCC788A928F14F2800C362E8 /* zh-Hans */,
+			);
+			name = Localizable_SimonFan.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC72BEC928E6E5910040F663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC72BECA28E6E5910040F663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC72BECC28E6E5910040F663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35E302B58D45CD0BA6E95A72 /* Pods-SimonFan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPUFTQ7695;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimonFan/SimonFan.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimonFan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology.SimonFan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC72BECD28E6E5910040F663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F4896E377ED43CEAF23F8C /* Pods-SimonFan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPUFTQ7695;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimonFan/SimonFan.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimonFan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology.SimonFan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC72BECF28E6E5910040F663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B182CA11E005423388851C /* Pods-SimonFanTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPUFTQ7695;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology.SimonFanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimonFan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimonFan";
+			};
+			name = Debug;
+		};
+		CC72BED028E6E5910040F663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F8D4E86DAE91EF9903A086 /* Pods-SimonFanTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPUFTQ7695;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology.SimonFanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimonFan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimonFan";
+			};
+			name = Release;
+		};
+		CC72BED228E6E5910040F663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A53354F22E656C0BC223158 /* Pods-SimonFan-SimonFanUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPUFTQ7695;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology.SimonFanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimonFan;
+			};
+			name = Debug;
+		};
+		CC72BED328E6E5910040F663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E180DEE66E9A989A12D0E3 /* Pods-SimonFan-SimonFanUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPUFTQ7695;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology.SimonFanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimonFan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC72BE9728E6E58F0040F663 /* Build configuration list for PBXProject "SimonFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC72BEC928E6E5910040F663 /* Debug */,
+				CC72BECA28E6E5910040F663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC72BECB28E6E5910040F663 /* Build configuration list for PBXNativeTarget "SimonFan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC72BECC28E6E5910040F663 /* Debug */,
+				CC72BECD28E6E5910040F663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC72BECE28E6E5910040F663 /* Build configuration list for PBXNativeTarget "SimonFanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC72BECF28E6E5910040F663 /* Debug */,
+				CC72BED028E6E5910040F663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC72BED128E6E5910040F663 /* Build configuration list for PBXNativeTarget "SimonFanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC72BED228E6E5910040F663 /* Debug */,
+				CC72BED328E6E5910040F663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC72BE9428E6E58F0040F663 /* Project object */;
+}
