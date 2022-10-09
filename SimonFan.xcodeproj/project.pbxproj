@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A2964A78B36379348D9B767 /* Pods_SimonFan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F6B04B1DDD0064147D77A0 /* Pods_SimonFan.framework */; };
 		94BF9FE8E6504EB4A7E7C30F /* Pods_SimonFanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D245B4CEBDF1721891D7A6F /* Pods_SimonFanTests.framework */; };
+		CC0B0E2028F2675200875D90 /* 1242x2208.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0B0E1F28F2675100875D90 /* 1242x2208.png */; };
 		CC72BEA128E6E58F0040F663 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72BEA028E6E58F0040F663 /* AppDelegate.m */; };
 		CC72BEA728E6E58F0040F663 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC72BEA628E6E58F0040F663 /* ViewController.m */; };
 		CC72BEAA28E6E58F0040F663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC72BEA828E6E58F0040F663 /* Main.storyboard */; };
@@ -47,6 +48,8 @@
 		77F6B04B1DDD0064147D77A0 /* Pods_SimonFan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimonFan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		820B680596D25BF9FE7B4ACB /* Pods_SimonFan_SimonFanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimonFan_SimonFanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E180DEE66E9A989A12D0E3 /* Pods-SimonFan-SimonFanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimonFan-SimonFanUITests.release.xcconfig"; path = "Target Support Files/Pods-SimonFan-SimonFanUITests/Pods-SimonFan-SimonFanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC0B0E1F28F2675100875D90 /* 1242x2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1242x2208.png; sourceTree = "<group>"; };
+		CC0B0E2228F26A5100875D90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		CC72BE9C28E6E58F0040F663 /* SimonFan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonFan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC72BE9F28E6E58F0040F663 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC72BEA028E6E58F0040F663 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -124,6 +127,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC0B0E1D28F2674700875D90 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CC0B0E1E28F2674800875D90 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CC0B0E1F28F2675100875D90 /* 1242x2208.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		CC72BE9328E6E58F0040F663 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +179,8 @@
 				CC72BEB028E6E5900040F663 /* Info.plist */,
 				CCC788A328F14EE600C362E8 /* Localizable_SimonFan.strings */,
 				CC72BEB128E6E5900040F663 /* main.m */,
+				CC0B0E1D28F2674700875D90 /* Class */,
+				CC0B0E1E28F2674800875D90 /* Resource */,
 			);
 			path = SimonFan;
 			sourceTree = "<group>";
@@ -294,6 +314,7 @@
 				CC72BEAF28E6E5900040F663 /* LaunchScreen.storyboard in Resources */,
 				CCC788A128F14EE600C362E8 /* Localizable_SimonFan.strings in Resources */,
 				CC72BEAC28E6E5900040F663 /* Assets.xcassets in Resources */,
+				CC0B0E2028F2675200875D90 /* 1242x2208.png in Resources */,
 				CC72BEAA28E6E58F0040F663 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +497,7 @@
 			children = (
 				CC72BEAE28E6E5900040F663 /* Base */,
 				CCC7889E28F12ED200C362E8 /* zh-Hans */,
+				CC0B0E2228F26A5100875D90 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -610,24 +632,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DPUFTQ7695;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = DPUFTQ7695;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SimonFan/SimonFan.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SimonFan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology.SimonFan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = discologyDev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -639,24 +666,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DPUFTQ7695;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = DPUFTQ7695;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SimonFan/SimonFan.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SimonFan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology.SimonFan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liquid.discology;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = discologyDis;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

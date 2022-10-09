@@ -1,16 +1,54 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
+  - PPNetworkHelper (0.8.1):
+    - AFNetworking (~> 3.2.0)
+    - YYCache (~> 1.0.4)
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - Masonry
+  - MJRefresh
+  - PPNetworkHelper (from `https://github.com/jkpang/PPNetworkHelper.git`)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - Masonry
+    - MJRefresh
+    - YYCache
+
+EXTERNAL SOURCES:
+  PPNetworkHelper:
+    :git: https://github.com/jkpang/PPNetworkHelper.git
+
+CHECKOUT OPTIONS:
+  PPNetworkHelper:
+    :commit: 54505979e1522fed07cc0a4ecba057010b0d8c6b
+    :git: https://github.com/jkpang/PPNetworkHelper.git
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  PPNetworkHelper: e893191a73665e9c496c2887fd5ceece9e930bb8
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 871f529e67b717648ecbb5f0c03f88303d616c00
+PODFILE CHECKSUM: c36bd7a13c901532fd3d5805cd1dc302a03ecfeb
 
 COCOAPODS: 1.11.3
